@@ -1,0 +1,7 @@
+version: '3'
+
+services:
+  textract:
+    image: yxwyoyoyo/textract-api
+    ports:
+      - 7890:80
